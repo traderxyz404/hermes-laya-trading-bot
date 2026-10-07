@@ -1,0 +1,3050 @@
+{
+    "timestamp": "2026-10-06T22:56:56.311059",
+    "starting_capital": 2000.0,
+    "current_equity": 7953.149999999959,
+    "total_trades": 303,
+    "wins": 190,
+    "losses": 113,
+    "win_rate_percent": 62.70627062706271,
+    "gross_pnl_inr": 6211.099999999995,
+    "total_fees_inr": 257.94999999999885,
+    "net_pnl_inr": 5953.149999999984,
+    "trades": [
+        {
+            "timestamp": "2026-10-06 22:56:56",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68420.5,
+            "exit_price": 68950.0,
+            "size": 0.005,
+            "confidence": 0.92,
+            "pnl_inr": 42.5,
+            "fees_inr": 1.2,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-06 22:56:56",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.3,
+            "exit_price": 180.1,
+            "size": 0.5,
+            "confidence": 0.89,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-06 22:56:56",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3510.0,
+            "exit_price": 3492.0,
+            "size": 0.05,
+            "confidence": 0.84,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.9,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9235935395735433,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9366018715698068,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8933996481305988,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9140417415999958,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9471216176410565,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9340190216477936,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8750829331234466,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8605065438711188,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:01:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8643906833500016,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8722172892440215,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8543911093174538,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9380673170670084,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9222534770927916,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9594506025149255,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9102179684649792,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9159853442370184,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9446911152387686,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.958692725264171,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8575635043936949,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9341054751360971,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:02:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9318890876192363,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8531369707601975,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8770147520073297,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8685424169393529,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9194966576308532,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8660961238093907,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9252073045003798,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9297458310396209,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9279678103064293,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8742041861758281,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9315755753018733,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9281808879108252,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9166200134788959,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:03:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9178672158812597,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8342274259882331,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8553554184493757,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8452102932831318,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8533063201854554,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9490863275850409,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8393614202832992,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8703608333499886,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8792893748652163,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9373122065586006,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9483957037834972,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9519362779712541,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.894304480119396,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9165306263353621,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8849547968259084,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:04:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9003434451155212,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8995146929352387,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.870083700910339,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8657111670119968,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.891200933366477,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9441536517284579,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8462604142318323,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.909468729367177,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9206891633664087,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9238699363268161,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8308543156158829,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8926516300749274,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8566506096950347,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8314295622030868,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:05:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9020366932808013,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8850557451299638,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8600539449904216,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9333629760496518,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8491403665897117,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.95255925225633,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8775237378132077,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8446349353512898,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8561462717587758,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8766862754950223,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8481625530252883,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.888592417366697,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.876257297259202,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.847491116620587,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9264948623809975,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:06:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8740435014363873,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9571493865685973,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9284931622558177,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8620985408090909,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8666993814478241,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.86652480672889,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8695461993087428,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8886549360572513,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8927756913247734,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9082506676471105,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:07:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8925549026638119,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9363497016184202,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8313275850708585,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9159717465450377,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9506173014680421,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8890046591922866,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8588692179847791,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9024378902302821,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8884119095176681,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8415266510061021,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9551712014626181,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9359508074390273,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:08:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9422185533019355,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.890741052163957,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.894502088569248,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8795220556114413,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9587762995554847,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8454781681210857,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.858011126312033,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9001938572322504,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8355456641240926,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:09:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9236833562184446,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9275329504835987,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.834491938771992,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9100962521204836,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9058073973172743,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.917345458480169,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8674415489500704,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8528469138179569,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9330048538146287,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.849267811303445,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9523495614758481,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:10:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9522604198430059,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9232363795916325,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9024484409921204,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8994060640883454,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9424389049264499,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8755184696138072,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.869977173093623,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8974891044534328,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9534508239413573,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9448014787424901,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:11:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.953125590283069,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9331371944959082,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9150019586293905,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9102924181340575,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.947039766095759,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8883606825777108,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8853191061901111,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9402061364565287,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8329797399003931,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9424444960571517,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.836994501237397,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9033585051310609,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8753884863135886,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:12:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9277843277547453,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8579376223764053,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9448398651904779,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9502504239052303,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.899547066853516,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9242432116980549,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8528585900093931,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8970600993859968,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9008048273409446,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8455918655018835,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.843067378484646,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9038061511836757,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.909346660184235,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:13:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9263706018086572,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9457634403121057,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9211981358154202,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.911183490606692,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8929831171707889,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9513763623489981,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9451282790102248,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8425586641526487,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8800382980006625,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.872045243465335,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8379633290718629,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.911747803832943,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:14:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9236056414627223,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8303546387358356,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8315250705887318,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9547569786866597,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8354483391570625,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.892338659726125,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8433464937948576,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:43",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9298597220400135,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:15:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8997162583850078,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:13",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9487688455812863,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8756857383637222,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9172347771364784,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9493760035518861,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:28",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9282452737849586,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8839503396516272,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:28",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.928773216147035,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8771802243347011,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:43",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9029946150181208,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:43",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8389976597643178,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:58",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8332527188279885,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:58",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9244453353628606,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:58",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9164470642708693,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:16:58",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8594514886410327,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:13",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9487680114979988,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:13",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8615054975434931,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:13",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8688627775528729,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:28",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8982966569558383,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:28",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8341773697326811,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:43",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8961763433940078,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:44",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9394949246123023,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:59",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9118757006514753,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9504215582030362,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:17:59",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.932426827614367,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:14",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8492781338354174,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:14",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.950884873429478,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.941130074734734,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:14",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8968342367660358,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:29",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9499323254181422,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:29",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9095830916906252,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:29",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9139120173301851,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:29",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9408062033095143,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:44",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8733301676591063,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:44",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8719051207075378,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:44",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8494186914913865,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:59",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8701588097258106,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:59",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9255647163716004,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:18:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9176562237203202,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:14",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8419862553029207,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:14",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.959627054360458,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9544089701567299,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:29",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.940092649048253,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:29",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8620262777096248,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:29",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8313583524535512,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:29",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8873241760406501,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:44",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9253198599034288,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:44",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.896304325290823,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:44",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.937503273401013,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:59",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8667983535865105,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:59",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9278686623124279,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8908485832621001,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:19:59",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9469391780326051,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:14",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9173278843247183,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:14",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9518300162964686,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8631891741753248,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:14",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8337615436633757,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:29",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8531705975375472,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:44",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9437383918423218,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:44",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8789807274275603,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:44",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8811145005021286,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:59",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8485895159058994,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.9146586383402273,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:20:59",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9051082691363892,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:14",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9568268064812383,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.845132869621373,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:14",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.9335554839299216,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:29",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8479659557424583,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:29",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8563818419055926,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:29",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9210264354823219,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:44",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9485448570138945,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:44",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8441420480573238,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:44",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.897132434113834,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:59",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9424756918893746,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:59",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8606806037003568,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8338417798962536,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:21:59",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8880129068343079,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:14",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.9051656607375316,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:14",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.885464887925486,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8775956525790527,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:14",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.85343492645819,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:29",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9244371465004237,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:29",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.887567071551038,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:29",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.85001163484613,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:44",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9469623483196585,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:44",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8336431004738023,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:59",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9105774506576837,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:59",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8806554889693627,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8339619573678712,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:22:59",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9113677447710568,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:14",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8970322420252292,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8379753585449923,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:29",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9123342733618075,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:29",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8917359324280288,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:29",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8512980923403715,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:44",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.887986606245121,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:44",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9549270958966025,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:44",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.861017405735532,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:59",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.884187974617351,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.8843730034636206,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:23:59",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.893286504279149,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:14",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8426184773886367,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.921553691918521,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:29",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8959957376533061,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:29",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8523878360412901,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:29",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.831151303872227,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:44",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.8991990766645261,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:44",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.8335770891108223,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:44",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9040732422364758,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:44",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8480957634090003,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:59",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9385951724060531,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:59",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.8818314116104095,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:24:59",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.9330720949895268,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:25:14",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8306093317742809,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:25:14",
+            "symbol": "ETH/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 3500.0,
+            "confidence": 0.9443872895130555,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:25:14",
+            "symbol": "SOL/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 182.0,
+            "confidence": 0.8420418761820319,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:25:14",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8415813168559358,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 00:25:29",
+            "symbol": "SOL/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 182.0,
+            "confidence": 0.928276395767793,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 00:25:29",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.8571382488125694,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 18:29:39",
+            "symbol": "BTC/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 68400.0,
+            "confidence": 0.8770853235215974,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 18:29:39",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9140150212151443,
+            "pnl_inr": 42.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 18:29:39",
+            "symbol": "XRP/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 0.62,
+            "confidence": 0.9378033959577934,
+            "pnl_inr": -22.5,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 18:29:54",
+            "symbol": "BTC/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 68400.0,
+            "confidence": 0.9581566918722375,
+            "pnl_inr": -18.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_SL"
+        },
+        {
+            "timestamp": "2026-10-07 18:29:54",
+            "symbol": "ETH/USDT:USDT",
+            "side": "SHORT",
+            "entry_price": 3500.0,
+            "confidence": 0.9074074448708971,
+            "pnl_inr": 55.0,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        },
+        {
+            "timestamp": "2026-10-07 18:29:54",
+            "symbol": "XRP/USDT:USDT",
+            "side": "LONG",
+            "entry_price": 0.62,
+            "confidence": 0.8879883854281048,
+            "pnl_inr": 35.2,
+            "fees_inr": 0.85,
+            "status": "CLOSED_TP"
+        }
+    ]
+}

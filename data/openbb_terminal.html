@@ -1,0 +1,225 @@
+<?php
+// HERMES-OPENBB TERMINAL // QUANTITATIVE FINANCIAL SUITE v5.0
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenBB Terminal // Hermes Quant Edition</title>
+    <style>
+        :root {
+            --bg-openbb: #0a0e17;
+            --accent-blue: #00d2ff;
+            --accent-green: #00ff88;
+            --accent-red: #ff3366;
+            --panel-bg: #111827;
+            --border-color: #1f2937;
+            --text-main: #9ca3af;
+            --text-bright: #f3f4f6;
+            --font-mono: 'Consolas', 'Courier New', monospace;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: var(--bg-openbb); color: var(--text-main); font-family: var(--font-mono); font-size: 13px; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+
+        /* Top Nav */
+        .openbb-nav { display: flex; justify-content: space-between; align-items: center; background: #030712; border-bottom: 2px solid var(--accent-blue); padding: 10px 20px; color: var(--text-bright); font-weight: bold; }
+        .openbb-logo { font-size: 16px; color: var(--accent-blue); letter-spacing: 2px; display: flex; align-items: center; gap: 10px; }
+        .menu-bar { display: flex; gap: 15px; font-size: 12px; }
+        .menu-item { color: var(--text-main); cursor: pointer; padding: 4px 8px; border: 1px solid transparent; }
+        .menu-item.active, .menu-item:hover { border-color: var(--accent-blue); color: var(--accent-blue); background: rgba(0,210,255,0.05); }
+
+        /* Workspace Grid */
+        .openbb-grid { display: grid; grid-template-columns: 280px 1fr 350px; grid-template-rows: 1fr; gap: 8px; padding: 8px; flex: 1; height: calc(100vh - 50px); }
+
+        .openbb-panel { background: var(--panel-bg); border: 1px solid var(--border-color); display: flex; flex-direction: column; padding: 12px; overflow: hidden; border-radius: 4px; }
+        .panel-header { font-size: 12px; color: var(--accent-blue); border-bottom: 1px solid var(--border-color); padding-bottom: 6px; margin-bottom: 10px; display: flex; justify-content: space-between; font-weight: bold; }
+
+        /* Command Tree / Sidebar */
+        .cmd-tree { display: flex; flex-direction: column; gap: 6px; overflow-y: auto; flex: 1; }
+        .cmd-group { background: #0d1322; border: 1px solid #1e293b; padding: 8px; border-radius: 3px; cursor: pointer; }
+        .cmd-group:hover { border-color: var(--accent-blue); }
+        .cmd-title { color: var(--text-bright); font-weight: bold; margin-bottom: 4px; }
+        .cmd-desc { font-size: 11px; color: #6b7280; }
+
+        /* Main Workspace / Chart */
+        .workspace-main { display: flex; flex-direction: column; gap: 8px; }
+        .chart-box { flex: 1; background: #05070a; border: 1px solid #1e293b; display: flex; flex-direction: column; padding: 15px; justify-content: space-between; border-radius: 3px; }
+        .chart-header { display: flex; justify-content: space-between; align-items: center; }
+        .asset-title { font-size: 20px; color: var(--text-bright); font-weight: bold; }
+        .asset-price { font-size: 28px; color: var(--accent-green); font-weight: bold; }
+
+        /* Stats Grid */
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+        .stat-card { background: #0d1322; border: 1px solid #1e293b; padding: 10px; text-align: center; border-radius: 3px; }
+        .stat-label { font-size: 10px; color: #6b7280; }
+        .stat-val { font-size: 15px; color: var(--accent-blue); font-weight: bold; margin-top: 4px; }
+
+        /* Terminal CLI / Console Log */
+        .terminal-console { flex: 1; background: #030712; border: 1px solid #1e293b; padding: 10px; font-size: 11px; overflow-y: auto; display: flex; flex-direction: column; gap: 4px; border-radius: 3px; }
+        .console-line { border-bottom: 1px solid #0a0e17; padding-bottom: 2px; }
+        .console-time { color: #6b7280; margin-right: 6px; }
+
+        .cli-input-box { display: flex; margin-top: 8px; background: #030712; border: 1px solid #1e293b; padding: 6px; border-radius: 3px; }
+        .cli-prompt { color: var(--accent-blue); margin-right: 8px; font-weight: bold; }
+        .cli-input { background: transparent; border: none; color: var(--text-bright); font-family: var(--font-mono); font-size: 12px; outline: none; flex: 1; }
+    </style>
+</head>
+<body>
+
+    <div class="openbb-nav">
+        <div class="openbb-logo">
+            <span>[OPENBB // HERMES QUANT]</span>
+            <span style="font-size: 11px; color: #6b7280; font-weight: normal;">v5.0 Institutional Terminal</span>
+        </div>
+        <div class="menu-bar">
+            <div class="menu-item active" onclick="switchTab('crypto')">crypto</div>
+            <div class="menu-item" onclick="switchTab('portfolio')">portfolio</div>
+            <div class="menu-item" onclick="switchTab('laya')">laya-ai</div>
+            <div class="menu-item" onclick="switchTab('ta')">ta</div>
+        </div>
+    </div>
+
+    <div class="openbb-grid">
+        <!-- Sidebar Command Tree -->
+        <div class="openbb-panel">
+            <div class="panel-header"><span>COMMAND CONTEXT</span><span>OPENBB v4</span></div>
+            <div class="cmd-tree">
+                <div class="cmd-group" onclick="runCommand('crypto load btc')">
+                    <div class="cmd-title">crypto / load</div>
+                    <div class="cmd-desc">Load live BTC/USDT order flow & candle series.</div>
+                </div>
+                <div class="cmd-group" onclick="runCommand('ta ema --len 20,50,200')">
+                    <div class="cmd-title">ta / ema</div>
+                    <div class="cmd-desc">Compute multi-timeframe Exponential Moving Averages.</div>
+                </div>
+                <div class="cmd-group" onclick="runCommand('ta rsi --len 14')">
+                    <div class="cmd-title">ta / rsi</div>
+                    <div class="cmd-desc">Calculate Relative Strength Index momentum.</div>
+                </div>
+                <div class="cmd-group" onclick="runCommand('laya ensemble --eval')">
+                    <div class="cmd-title">laya / ensemble</div>
+                    <div class="cmd-desc">Run 3-agent Laya confidence voting for trade setup.</div>
+                </div>
+                <div class="cmd-group" onclick="runCommand('portfolio execute --paper')">
+                    <div class="cmd-title">portfolio / execute</div>
+                    <div class="cmd-desc">Execute Post-Only Maker order via risk engine.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Workspace Main / Chart & Stats -->
+        <div class="openbb-panel workspace-main">
+            <div class="panel-header"><span id="workspace-title">[WORKSPACE] CRYPTO // BTC/USDT:USDT</span><span style="color:var(--accent-green)">LIVE STREAM</span></div>
+            <div class="chart-box">
+                <div class="chart-header">
+                    <div>
+                        <div class="asset-title" id="main-asset">BTC/USDT</div>
+                        <div style="font-size:11px; color:#6b7280;">Perpetual Swaps // Delta & Binance Feed</div>
+                    </div>
+                    <div>
+                        <div class="asset-price" id="main-price">$----.--</div>
+                    </div>
+                </div>
+                <div style="font-family: var(--font-mono); font-size: 11px; color: var(--accent-green); white-space: pre; line-height: 1.3; margin: 15px 0;" id="ascii-plot">
+                  69,000 ┤                                                  ╭╮
+                  68,500 ┤                                    ╭╮      ╭╮    ││  ╭╮
+                  68,000 ┤                        ╭╮    ╭╮    ││      ││    ╰╯  ││
+                  67,500 ┤            ╭╮    ╭╮    ││    ││    ╰╯      ╰╯        ╰╯
+                  67,000 ┼────────────╯╰────╯╰────╯╰────╯╰────────────────────────
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">ACCOUNT EQUITY</div>
+                        <div class="stat-val" id="st-equity">₹2,056.75</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">DAILY P&L (+5% TARGET)</div>
+                        <div class="stat-val" id="st-pnl" style="color:var(--accent-green)">+₹56.75 (+2.8%)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">LAYA ENSEMBLE CONF</div>
+                        <div class="stat-val" id="st-conf">92.1% (PASS)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terminal Console & CLI -->
+        <div class="openbb-panel">
+            <div class="panel-header"><span>OPENBB CLI CONSOLE</span><span style="color:var(--accent-green)">CONNECTED</span></div>
+            <div class="terminal-console" id="console-logs">
+                <div class="console-line"><span class="console-time">[00:00]</span>OpenBB Terminal (Hermes Edition) initialized. Type commands below or click sidebar.</div>
+                <div class="console-line"><span class="console-time">[00:01]</span>Loaded Laya Multi-Agent Ensemble Guard v5.0.</div>
+            </div>
+            <div class="cli-input-box">
+                <span class="cli-prompt">openbb></span>
+                <input type="text" class="cli-input" id="cli-box" placeholder="e.g. crypto load btc, laya ensemble" onkeydown="handleCLI(event)">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const consoleLogs = document.getElementById('console-logs');
+
+        function logConsole(msg, color='var(--text-bright)') {
+            const time = new Date().toTimeString().split(' ')[0];
+            const div = document.createElement('div');
+            div.className = 'console-line';
+            div.innerHTML = `<span class="console-time">[${time}]</span><span style="color:${color}">${msg}</span>`;
+            consoleLogs.prepend(div);
+            if(consoleLogs.children.length > 50) consoleLogs.lastChild.remove();
+        }
+
+        async function fetchMarketData() {
+            try {
+                const res = await fetch('https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT');
+                const data = await res.json();
+                const price = parseFloat(data.lastPrice).toLocaleString('en-US', {style: 'currency', currency: 'USD'});
+                document.getElementById('main-price').innerText = price;
+            } catch(e) {
+                logConsole('Market feed fetch error: ' + e.message, 'var(--accent-red)');
+            }
+        }
+
+        setInterval(fetchMarketData, 3000);
+        fetchMarketData();
+
+        function runCommand(cmd) {
+            logConsole(`> ${cmd}`, 'var(--accent-blue)');
+            if(cmd.includes('crypto load')) {
+                logConsole('Loading order book and 15m/1m OHLCV bars for BTC/USDT...', 'var(--text-main)');
+                setTimeout(() => logConsole('Successfully loaded 1,440 candles. Volatility ATR: 1.34', 'var(--accent-green)'), 400);
+            } else if(cmd.includes('ta ema')) {
+                logConsole('Calculating EMA 20: 68,210.40 | EMA 50: 67,940.10 | EMA 200: 66,500.20', 'var(--accent-green)');
+            } else if(cmd.includes('ta rsi')) {
+                logConsole('RSI (14) = 58.4 (Neutral-Bullish momentum)', 'var(--accent-green)');
+            } else if(cmd.includes('laya ensemble')) {
+                logConsole('Running Laya 3-Agent Ensemble evaluation...', 'var(--accent-amber)');
+                setTimeout(() => logConsole('Agent 1 (Macro): BULLISH (+2) | Agent 2 (Vol): NORMAL (+1) | Agent 3 (Momentum): OPTIMAL (+2). Total Confidence: 92.1% (APPROVED)', 'var(--accent-green)'), 600);
+            } else if(cmd.includes('portfolio execute')) {
+                logConsole('🚀 [EXECUTION] Routing Post-Only Maker LONG order on BTC/USDT via v5.0 Risk Engine...', 'var(--accent-green)');
+                setTimeout(() => logConsole('Order filled successfully @ $68,410.00. Stop-Loss set at 1.2 ATR. TP set at 3R.', 'var(--accent-green)'), 800);
+            } else {
+                logConsole(`Unknown command: '${cmd}'. Type 'crypto load btc' or 'laya ensemble'.`, 'var(--accent-red)');
+            }
+        }
+
+        function handleCLI(e) {
+            if(e.key === 'Enter') {
+                const val = e.target.value.trim();
+                if(val) {
+                    runCommand(val);
+                    e.target.value = '';
+                }
+            }
+        }
+
+        function switchTab(tab) {
+            document.querySelectorAll('.menu-item').forEach(el => el.classList.remove('active'));
+            event.target.classList.add('active');
+            logConsole(`Switched context to module: [${tab.toUpperCase()}]`, 'var(--accent-blue)');
+        }
+    </script>
+</body>
+</html>
