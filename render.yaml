@@ -1,12 +1,12 @@
 services:
-  - type: worker
+  - type: web
     name: hermes-laya-trader
     env: python
     region: oregon
     plan: free
     branch: main
     buildCommand: pip install -r requirements.txt
-    startCommand: python continuous_paper_trader.py
+    startCommand: python cloud_app.py
     envVars:
       - key: DELTA_API_KEY
         value: EoDwOzK74UWMd8CAXPpNBS1zhxwmOs
