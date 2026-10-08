@@ -1,0 +1,14 @@
+services:
+  - type: worker
+    name: hermes-laya-trader
+    env: python
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python continuous_paper_trader.py
+    envVars:
+      - key: DELTA_API_KEY
+        value: EoDwOzK74UWMd8CAXPpNBS1zhxwmOs
+      - key: DELTA_API_SECRET
+        value: hk1o5w1TZwjwjBdCEwrrmBSdQh9tEk3bskJcwFXUPeQCoBgaWca8vf6S4Jnw

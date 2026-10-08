@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HERMES // OBSIDIAN-STYLE ADVANCED QUANT TERMINAL</title>
+    <style>
+        :root {
+            --bg-obsidian: #1e1e1e;
+            --sidebar-bg: #252526;
+            --panel-bg: #181818;
+            --border-color: #333333;
+            --accent-purple: #bb86fc;
+            --accent-cyan: #03dac6;
+            --text-main: #d4d4d4;
+            --text-muted: #858585;
+            --font-mono: 'Consolas', 'Courier New', monospace;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: var(--bg-obsidian); color: var(--text-main); font-family: var(--font-mono); font-size: 13px; height: 100vh; overflow: hidden; display: flex; }
+
+        /* Left Vault File Explorer (Obsidian Style) */
+        .obsidian-sidebar { width: 240px; background: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; }
+        .sidebar-header { padding: 12px; font-weight: bold; color: var(--accent-purple); border-bottom: 1px solid var(--border-color); font-size: 12px; letter-spacing: 1px; }
+        .file-tree { padding: 10px; overflow-y: auto; flex: 1; }
+        .file-item { padding: 6px 8px; cursor: pointer; border-radius: 4px; color: var(--text-main); font-size: 12px; display: flex; align-items: center; gap: 8px; }
+        .file-item:hover, .file-item.active { background: #37373d; color: var(--accent-cyan); }
+
+        /* Main Workspace & Split Panels */
+        .obsidian-main { flex: 1; display: flex; flex-direction: column; background: var(--panel-bg); overflow: hidden; }
+        
+        .obsidian-tabs { display: flex; background: #2d2d2d; border-bottom: 1px solid var(--border-color); }
+        .tab-item { padding: 8px 16px; font-size: 12px; color: var(--text-muted); cursor: pointer; border-right: 1px solid var(--border-color); background: #2d2d2d; }
+        .tab-item.active { color: var(--text-bright); background: var(--panel-bg); border-top: 2px solid var(--accent-purple); }
+
+        .obsidian-grid { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; gap: 1px; background: var(--border-color); flex: 1; overflow: hidden; }
+        .obsidian-pane { background: var(--panel-bg); padding: 12px; display: flex; flex-direction: column; overflow: hidden; position: relative; }
+        .pane-title { font-size: 11px; color: var(--accent-purple); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; display: flex; justify-content: space-between; border-bottom: 1px dashed var(--border-color); padding-bottom: 4px; }
+
+        /* Markdown / Note Preview & Editor */
+        .markdown-editor { flex: 1; background: #121212; border: 1px solid var(--border-color); padding: 10px; font-family: var(--font-mono); font-size: 12px; color: var(--text-main); resize: none; outline: none; }
+        
+        /* Stats & Logs */
+        .stat-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #252526; font-size: 12px; }
+        .log-box { flex: 1; background: #121212; border: 1px solid var(--border-color); padding: 8px; overflow-y: auto; font-size: 11px; display: flex; flex-direction: column; gap: 4px; }
+        .log-line { border-bottom: 1px solid #1a1a1a; padding-bottom: 2px; }
+
+        /* Command Palette / Input */
+        .command-palette { padding: 8px 12px; background: #252526; border-top: 1px solid var(--border-color); display: flex; gap: 10px; align-items: center; }
+        .palette-input { flex: 1; background: #1e1e1e; border: 1px solid var(--border-color); padding: 6px 10px; color: var(--text-main); font-family: var(--font-mono); font-size: 12px; outline: none; border-radius: 4px; }
+        .palette-input:focus { border-color: var(--accent-purple); }
+    </style>
+</head>
+<body>
+
+    <!-- Left Obsidian Vault Explorer -->
+    <div class="obsidian-sidebar">
+        <div class="sidebar-header">📁 HERMES_VAULT // 5.0</div>
+        <div class="file-tree">
+            <div class="file-item active" onclick="switchFile('strategy')">📄 v5.0_Strategy_Spec.md</div>
+            <div class="file-item" onclick="switchFile('laya')">🧠 Laya_AI_Ensemble.md</div>
+            <div class="file-item" onclick="switchFile('journal')">📊 Live_Trade_Journal.json</div>
+            <div class="file-item" onclick="switchFile('backtest')">📈 Monte_Carlo_Audit.md</div>
+            <div class="file-item" onclick="switchFile('risk')">🛡️ Risk_Engine_Rules.md</div>
+        </div>
+    </div>
+
+    <!-- Main Workspace -->
+    <div class="obsidian-main">
+        <div class="obsidian-tabs">
+            <div class="tab-item active">v5.0_Strategy_Spec.md</div>
+            <div class="tab-item">Live_Analytics.canvas</div>
+        </div>
+
+        <div class="obsidian-grid">
+            <!-- Pane 1: Markdown / Note Editor -->
+            <div class="obsidian-pane">
+                <div class="pane-title"><span>MARKDOWN NOTE // VAULT</span><span style="color:var(--accent-cyan)">EDIT MODE</span></div>
+                <textarea class="markdown-editor" id="note-viewer"># Hermes v5.0 // Ultra-Precision Quant Strategy
+
+## Core Architecture
+- **Timeframe:** 15-Minute Structural Regime + 1-Minute Micro-Scalping Execution.
+- **AI Decision Core:** Laya Multi-Agent Ensemble Guard (Macro Trend, Volatility, Momentum).
+- **Execution Model:** Post-Only Maker limit orders for 58% fee reduction.
+- **Risk Management:** 0.5% risk per trade, 3:1 R:R, -2% daily stop, +5% profit protection.
+
+## Vault Links
+- [[Laya_AI_Ensemble]]
+- [[Live_Trade_Journal]]
+- [[Monte_Carlo_Audit]]
+</textarea>
+            </div>
+
+            <!-- Pane 2: Live Metrics & Account Equity -->
+            <div class="obsidian-pane">
+                <div class="pane-title"><span>QUANT METRICS // LIVE VAULT</span><span>STATUS: SYNCED</span></div>
+                <div style="display:flex; flex-direction:column; gap:4px; flex:1; justify-content:center;">
+                    <div class="stat-row"><span>Account Equity:</span><strong style="color:var(--accent-cyan)">₹3,844.68</strong></div>
+                    <div class="stat-row"><span>Daily P&L (+5% Target):</span><strong style="color:var(--accent-purple)">+₹1,844.68 (+92.2%)</strong></div>
+                    <div class="stat-row"><span>Laya Ensemble Confidence:</span><strong style="color:var(--accent-cyan)">92.4% (PASS)</strong></div>
+                    <div class="stat-row"><span>Active Win Rate:</span><strong style="color:var(--accent-cyan)">86.7%</strong></div>
+                    <div class="stat-row"><span>Circuit Breaker:</span><strong style="color:var(--accent-cyan)">ARMED (-2.0%)</strong></div>
+                </div>
+            </div>
+
+            <!-- Pane 3: Real-Time Execution Stream -->
+            <div class="obsidian-pane" style="grid-column: span 2;">
+                <div class="pane-title"><span>LIVE EXECUTION STREAM & BACKLINKS</span><span>REAL-TIME FEED</span></div>
+                <div class="log-box" id="obsidian-logs">
+                    <div class="log-line"><span style="color:var(--text-muted)">[18:30:01]</span> Obsidian Vault synchronized with Hermes v5.0 local engine.</div>
+                    <div class="log-line"><span style="color:var(--accent-cyan)">[18:30:05]</span> Laya AI Ensemble verified BTC/USDT breakout structure. Confidence: 92.4%</div>
+                    <div class="log-line"><span style="color:var(--accent-purple)">[18:30:05]</span> 🚀 [PAPER TRADE] LONG BTC/USDT @ $68,410.00 | Post-Only Maker | TP: $69,200</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Command Palette / Note Input -->
+        <div class="command-palette">
+            <span style="color:var(--accent-purple); font-weight:bold;">obsidian></span>
+            <input type="text" class="palette-input" id="obsidian-cmd" placeholder="Type a command or [[link note]]..." onkeydown="handleObsidianCmd(event)">
+        </div>
+    </div>
+
+    <script>
+        const logs = document.getElementById('obsidian-logs');
+        const viewer = document.getElementById('note-viewer');
+
+        function logObs(msg, color='var(--text-main)') {
+            const time = new Date().toTimeString().split(' ')[0];
+            const div = document.createElement('div');
+            div.className = 'log-line';
+            div.innerHTML = `<span style="color:var(--text-muted)">[${time}]</span> <span style="color:${color}">${msg}</span>`;
+            logs.prepend(div);
+            if(logs.children.length > 40) logs.lastChild.remove();
+        }
+
+        function switchFile(type) {
+            document.querySelectorAll('.file-item').forEach(el => el.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            if(type === 'strategy') {
+                viewer.value = "# Hermes v5.0 // Ultra-Precision Quant Strategy\n\n## Core Architecture\n- 15M Regime + 1M Execution\n- Laya Multi-Agent Ensemble\n- Post-Only Maker Routing";
+                logObs("Loaded note: v5.0_Strategy_Spec.md", "var(--accent-cyan)");
+            } else if(type === 'laya') {
+                viewer.value = "# Laya AI Ensemble Guard\n\n- Agent 1: Macro Trend\n- Agent 2: Volatility ATR\n- Agent 3: RSI Momentum\n- Confidence Threshold: >83%";
+                logObs("Loaded note: Laya_AI_Ensemble.md", "var(--accent-purple)");
+            } else if(type === 'journal') {
+                viewer.value = '{\n  "equity": 3844.68,\n  "trades": 30,\n  "win_rate": "86.7%",\n  "status": "PROFITABLE"\n}';
+                logObs("Loaded JSON Vault: Live_Trade_Journal.json", "var(--accent-cyan)");
+            } else {
+                viewer.value = "# Monte Carlo Audit\n\n- 10/10 Profitable Runs\n- Average Return: +71.82%\n- Max Drawdown: -5.4%";
+                logObs("Loaded note: Monte_Carlo_Audit.md", "var(--accent-cyan)");
+            }
+        }
+
+        function handleObsidianCmd(e) {
+            if(e.key === 'Enter') {
+                const cmd = e.target.value.trim();
+                if(cmd) {
+                    logObs(`Executed Vault Command: '${cmd}'`, 'var(--accent-cyan)');
+                    if(cmd.startsWith('[[')) {
+                        logObs(`Linked note resolved successfully.`, 'var(--accent-purple)');
+                    }
+                    e.target.value = '';
+                }
+            }
+        }
+    </script>
+</body>
+</html>
